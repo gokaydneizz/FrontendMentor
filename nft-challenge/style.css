@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+  flex-direction: column;
+  font-family: 'Outfit', sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+p {
+  font-size: 18px;
+}
+
+hr {
+  background-color: hsl(215, 32%, 27%);
+  border: none;
+  height: 1px;
+  margin-bottom: -4px;
+}
+
+.card {
+  max-width: 250px;
+  border-radius: 15px;
+  background-color: hsl(216, 50%, 16%);
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.card .eqimg {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card h4 {
+  color: white;
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 12px;
+  color: hsl(215, 51%, 70%);
+}
+
+.eth-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.eth-span {
+  font-size: 12px;
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock-span {
+  font-size: 12px;
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 10px;
+}
+
+.avatar {
+  width: 25px;
+  margin-right: 5px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.profile-container span {
+  font-size: 12px;
+  color: hsl(215, 51%, 70%);
+}
+
+.profile-container .jules {
+  color: white;
+  font-weight: 600;
+}
